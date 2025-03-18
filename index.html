@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site-ul lui Costi</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            color: orange;
+            animation: bounce 2s infinite; /* Textul "sare" */
+            margin-bottom: 50px; /* Spațiu sub text */
+        }
+        img {
+            width: 200px;
+            animation: spin 5s infinite; /* Poza se rotește */
+            display: block; /* Poza pe linie nouă */
+            margin: 0 auto; /* Centrată */
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Salut, eu sunt Costi!</h1>
+    <img src="costi_dexter.jpg" alt="Costi ca Dexter">
+</body>
+</html>
